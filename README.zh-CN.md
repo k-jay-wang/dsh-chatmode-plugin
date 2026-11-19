@@ -25,7 +25,7 @@ dsh plugin --profile desktop add dsh-chatmode-plugin
 
 也可以在 DSH 里打开 **插件 → 添加插件**，输入 `dsh-chatmode-plugin`，然后重启 DSH。
 
-插件也收录在 Open Plugin Market（索引源 `https://dshopen.org/index.json`），在 **发现** 里加索引后可以直接从市场页安装。
+已准备好提交到 [Open Plugin Market](https://dshopen.org)；收录后也可以在 **发现** 里添加该索引源，从市场页直接安装。
 
 重启后，客户端设置里会多出 **设置 → 主动聊天**。
 
