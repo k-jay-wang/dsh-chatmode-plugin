@@ -1,6 +1,6 @@
 {
   "name": "dsh-chatmode-plugin",
-  "version": "1.2.1",
+  "version": "1.2.0",
   "type": "module",
   "description": "DSHChatMode: the model proactively starts chats with you on your schedule — active hours, DND windows, custom topics, persona-aware.",
   "keywords": [
