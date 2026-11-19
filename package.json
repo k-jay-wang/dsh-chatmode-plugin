@@ -14,15 +14,19 @@
     "companion"
   ],
   "license": "MIT",
-  "author": "Eddie",
+  "author": {
+    "name": "Eddie",
+    "url": "https://github.com/k-jay-wang"
+  },
   "icon": "icon.svg",
-  "homepage": "https://github.com/REPLACE-ME/dsh-chatmode-plugin#readme",
+  "homepage": "https://github.com/k-jay-wang/dsh-chatmode-plugin#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/REPLACE-ME/dsh-chatmode-plugin.git"
+    "url": "git+https://github.com/k-jay-wang/dsh-chatmode-plugin.git",
+    "directory": ""
   },
   "bugs": {
-    "url": "https://github.com/REPLACE-ME/dsh-chatmode-plugin/issues"
+    "url": "https://github.com/k-jay-wang/dsh-chatmode-plugin/issues"
   },
   "main": "./index.js",
   "exports": {
@@ -64,5 +68,11 @@
         "0.2.2-rc.5": "compatible"
       }
     }
-  }
+  },
+  "contributors": [
+    {
+      "name": "Eddie",
+      "url": "https://github.com/k-jay-wang"
+    }
+  ]
 }
