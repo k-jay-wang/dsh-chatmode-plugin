@@ -1,0 +1,8 @@
+# DSHChatMode —— bundle patch。
+#
+# 每一行（entry）有一个全局唯一的 id 和要加载的模块名。id 与包名保持一致，
+# 这样市场检查（提交预检按 entryIds 比对包名）和用户手改 patch 时都不会冲突。
+- insert:
+    - id: dsh-chatmode-plugin
+      name: 'dsh-chatmode-plugin'
+      config: {}

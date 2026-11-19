@@ -1,0 +1,68 @@
+{
+  "name": "dsh-chatmode-plugin",
+  "version": "1.2.0",
+  "type": "module",
+  "description": "DSHChatMode: the model proactively starts chats with you on your schedule — active hours, DND windows, custom topics, persona-aware.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "chat",
+    "proactive",
+    "schedule",
+    "automation",
+    "companion"
+  ],
+  "license": "MIT",
+  "author": "Eddie",
+  "icon": "icon.svg",
+  "homepage": "https://github.com/REPLACE-ME/dsh-chatmode-plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/REPLACE-ME/dsh-chatmode-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/REPLACE-ME/dsh-chatmode-plugin/issues"
+  },
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.12.0",
+    "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "slots",
+        "locale"
+      ]
+    },
+    "compatibility": {
+      "dshReleases": {
+        "0.2.2-rc.5": "compatible"
+      }
+    }
+  }
+}
